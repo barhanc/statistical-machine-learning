@@ -2,11 +2,8 @@
 
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg?style=flat&logo=Jupyter&logoColor=white)](https://jupyter.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-FF6F00.svg?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![TensorFlow Probability](https://img.shields.io/badge/TF_Probability-0.23-FF6F00.svg?style=flat)](https://www.tensorflow.org/probability)
+[![TF Probability](https://img.shields.io/badge/TF_Probability-0.23-FF6F00.svg?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/probability)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
 An in-depth curriculum covering foundational statistical machine learning, Bayesian inference, probabilistic graphical models, and sampling methods. Each laboratory balances rigorous mathematical derivations with practical implementation in Python, NumPy, SciPy, and TensorFlow Probability.
 
 Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Python package and environment manager.
