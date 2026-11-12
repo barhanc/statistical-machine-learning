@@ -17,13 +17,13 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
 
 | Lab | Topic | Mathematical & Algorithmic Foundations | Core Tools |
 | :---: | :--- | :--- | :--- |
-| [**01**](./Lab1/lab1.ipynb) | **Monte Carlo Foundations** | Monte Carlo Integration, Hypersphere Volumes, Uniform Sampling in $d$-Ball, Von Neumann Coin Extractor | NumPy, Matplotlib |
-| [**02**](./Lab2/lab2.ipynb) | **Linear Gaussian Models & State Estimation** | Multivariate Gaussian Distributions, Radar Echo Localization, Bayes' Rule, Kalman-style Sequential Updating | NumPy, SciPy |
-| [**03**](./Lab3/lab3.ipynb) | **Linear & Bayesian Regression** | Ordinary Least Squares (OLS), Conjugate Gaussian Priors, Posterior Weight Distributions, MAP Estimation | NumPy, SciPy |
-| [**04**](./Lab4/lab4.ipynb) | **Gaussian Process Regression** | Covariance Kernels (RBF, Matérn), GP Priors/Posteriors, Marginal Likelihood, Bayesian Optimization | NumPy, SciPy |
-| [**05**](./Lab5/lab5.ipynb) | **Multinomial Logistic Regression** | Softmax Formulation, Cross-Entropy Loss, Vectorized Gradient Descent from Scratch on MNIST | NumPy, MNIST |
-| [**06**](./Lab6/lab6.ipynb) | **Probabilistic Programming & Importance Sampling** | TensorFlow Probability (TFP), Joint Distributions, Importance Sampling, Normalizing Constant Estimation | TensorFlow, TFP |
-| [**07**](./Lab7/lab7.ipynb) | **MCMC & Hierarchical Bayesian Models** | Markov Chain Monte Carlo, Metropolis-Hastings, Hamiltonian Monte Carlo (HMC), Change-Point Models | TensorFlow, TFP, Seaborn |
+| [**01**](./lab1/lab1.ipynb) | **Monte Carlo Foundations** | Monte Carlo Integration, Hypersphere Volumes, Uniform Sampling in $d$-Ball, Von Neumann Coin Extractor | NumPy, Matplotlib |
+| [**02**](./lab2/lab2.ipynb) | **Linear Gaussian Models & State Estimation** | Multivariate Gaussian Distributions, Radar Echo Localization, Bayes' Rule, Kalman-style Sequential Updating | NumPy, SciPy |
+| [**03**](./lab3/lab3.ipynb) | **Linear & Bayesian Regression** | Ordinary Least Squares (OLS), Conjugate Gaussian Priors, Posterior Weight Distributions, MAP Estimation | NumPy, SciPy |
+| [**04**](./lab4/lab4.ipynb) | **Gaussian Process Regression** | Covariance Kernels (RBF, Matérn), GP Priors/Posteriors, Marginal Likelihood, Bayesian Optimization | NumPy, SciPy |
+| [**05**](./lab5/lab5.ipynb) | **Multinomial Logistic Regression** | Softmax Formulation, Cross-Entropy Loss, Vectorized Gradient Descent from Scratch on MNIST | NumPy, MNIST |
+| [**06**](./lab6/lab6.ipynb) | **Probabilistic Programming & Importance Sampling** | TensorFlow Probability (TFP), Joint Distributions, Importance Sampling, Normalizing Constant Estimation | TensorFlow, TFP |
+| [**07**](./lab7/lab7.ipynb) | **MCMC & Hierarchical Bayesian Models** | Markov Chain Monte Carlo, Metropolis-Hastings, Hamiltonian Monte Carlo (HMC), Change-Point Models | TensorFlow, TFP, Seaborn |
 
 ---
 
@@ -38,7 +38,7 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
   - High-dimensional geometry: The ratio between the volume of an inscribed $d$-dimensional ball and hypercube, demonstrating concentration of measure and the curse of dimensionality.
   - Correct uniform sampling within a $d$-dimensional unit sphere using Gaussian vectors and radial scaling.
   - The Von Neumann randomness extractor: Generating unbiased Bernoulli trials from a biased coin.
-- **Notebook**: [`Lab1/lab1.ipynb`](./Lab1/lab1.ipynb)
+- **Notebook**: [`lab1/lab1.ipynb`](./lab1/lab1.ipynb)
 </details>
 
 <details>
@@ -50,7 +50,7 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
   - Joint and conditional multivariate Gaussian distributions.
   - Analytical posterior derivation for object location from single and multiple noisy radar echoes.
   - Sequential Bayesian updating as an introduction to Kalman filtering.
-- **Notebook**: [`Lab2/lab2.ipynb`](./Lab2/lab2.ipynb)
+- **Notebook**: [`lab2/lab2.ipynb`](./lab2/lab2.ipynb)
 </details>
 
 <details>
@@ -62,7 +62,7 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
   - Conjugate Gaussian priors on linear weights: Derivation of the weight posterior distribution $p(\mathbf{w} \mid \mathcal{D})$.
   - Maximum A Posteriori (MAP) estimation and its equivalence to $L_2$ Ridge regularization.
   - Predictive distributions: Visualizing epistemic vs. aleatoric uncertainty across feature space.
-- **Notebook**: [`Lab3/lab3.ipynb`](./Lab3/lab3.ipynb)
+- **Notebook**: [`lab3/lab3.ipynb`](./lab3/lab3.ipynb)
 </details>
 
 <details>
@@ -74,7 +74,7 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
   - Definition of Gaussian Processes: Any finite collection of evaluation points is jointly Gaussian.
   - Conditioning Gaussian Processes on observed data points: Analytical mean and variance functions.
   - Application to **Bayesian Optimization**: Acquisition functions (Upper Confidence Bound - UCB, Expected Improvement - EI) for tuning expensive black-box objectives.
-- **Notebook**: [`Lab4/lab4.ipynb`](./Lab4/lab4.ipynb)
+- **Notebook**: [`lab4/lab4.ipynb`](./lab4/lab4.ipynb)
 </details>
 
 <details>
@@ -86,7 +86,7 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
   - Derivation of the multi-class negative log-likelihood (cross-entropy) loss function.
   - Analytical computation of gradients with respect to weight matrices and bias vectors.
   - Batch and mini-batch gradient descent optimization implemented in pure NumPy and tested on the MNIST handwritten digits dataset.
-- **Notebook**: [`Lab5/lab5.ipynb`](./Lab5/lab5.ipynb)
+- **Notebook**: [`lab5/lab5.ipynb`](./lab5/lab5.ipynb)
 </details>
 
 <details>
@@ -98,7 +98,7 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
   - Building joint log-probability functions for hierarchical Bayesian models.
   - **Importance Sampling**: Computing expectations with respect to intractable target distributions using proposal distributions.
   - Evaluating proposal quality, diagnostics, and calculating effective sample size (ESS).
-- **Notebook**: [`Lab6/lab6.ipynb`](./Lab6/lab6.ipynb)
+- **Notebook**: [`lab6/lab6.ipynb`](./lab6/lab6.ipynb)
 </details>
 
 <details>
@@ -110,7 +110,7 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
   - Metropolis-Hastings (MH) and Hamiltonian Monte Carlo (HMC) sampling in TensorFlow Probability.
   - Diagnosing convergence: Trace plots, autocorrelation time, and Gelman-Rubin $\hat{R}$.
   - Application to Change-Point and Interval Change detection in non-stationary time series data.
-- **Notebook**: [`Lab7/lab7.ipynb`](./Lab7/lab7.ipynb)
+- **Notebook**: [`lab7/lab7.ipynb`](./lab7/lab7.ipynb)
 </details>
 
 ---
