@@ -15,20 +15,6 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
 
 ## Overview
 
-| Lab | Topic | Mathematical & Algorithmic Foundations | Core Tools |
-| :---: | :--- | :--- | :--- |
-| [**01**](./lab1/lab1.ipynb) | **Monte Carlo Foundations** | Monte Carlo Integration, Hypersphere Volumes, Uniform Sampling in $d$-Ball, Von Neumann Coin Extractor | NumPy, Matplotlib |
-| [**02**](./lab2/lab2.ipynb) | **Linear Gaussian Models & State Estimation** | Multivariate Gaussian Distributions, Radar Echo Localization, Bayes' Rule, Kalman-style Sequential Updating | NumPy, SciPy |
-| [**03**](./lab3/lab3.ipynb) | **Linear & Bayesian Regression** | Ordinary Least Squares (OLS), Conjugate Gaussian Priors, Posterior Weight Distributions, MAP Estimation | NumPy, SciPy |
-| [**04**](./lab4/lab4.ipynb) | **Gaussian Process Regression** | Covariance Kernels (RBF, Matérn), GP Priors/Posteriors, Marginal Likelihood, Bayesian Optimization | NumPy, SciPy |
-| [**05**](./lab5/lab5.ipynb) | **Multinomial Logistic Regression** | Softmax Formulation, Cross-Entropy Loss, Vectorized Gradient Descent from Scratch on MNIST | NumPy, MNIST |
-| [**06**](./lab6/lab6.ipynb) | **Probabilistic Programming & Importance Sampling** | TensorFlow Probability (TFP), Joint Distributions, Importance Sampling, Normalizing Constant Estimation | TensorFlow, TFP |
-| [**07**](./lab7/lab7.ipynb) | **MCMC & Hierarchical Bayesian Models** | Markov Chain Monte Carlo, Metropolis-Hastings, Hamiltonian Monte Carlo (HMC), Change-Point Models | TensorFlow, TFP, Seaborn |
-
----
-
-## Detailed Lab Breakdown
-
 <details open>
 <summary><b>Lab 1: Monte Carlo Foundations</b></summary>
 
