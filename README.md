@@ -8,8 +8,6 @@ An in-depth curriculum covering foundational statistical machine learning, Bayes
 
 Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Python package and environment manager.
 
----
-
 ## Overview
 
 <details open>
@@ -95,8 +93,6 @@ Managed with [**uv**](https://github.com/astral-sh/uv), the blazingly fast Pytho
   - Application to Change-Point and Interval Change detection in non-stationary time series data.
 - **Notebook**: [`lab7/lab7.ipynb`](./lab7/lab7.ipynb)
 </details>
-
----
 
 ## Getting Started
 
